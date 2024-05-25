@@ -1,0 +1,75 @@
+﻿@charset "UTF-8";
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /*backgroundプロパティは一括指定できる*/
+  background-color: #ffffff;
+/*
+  background-color: #ffffff;
+  background-image: url(images/Koumon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+*/
+ }
+
+
+
+
+table{
+  color: #0000000;
+ }
+h1{
+  background-color: #ed1c24;
+  color: #ffffff;
+  height: 20px;
+  padding: 25px;
+ }
+
+ p{
+   color: Black;
+   font-size: 1.5rem;
+   width: 17vw;
+   /*borderプロパティは一括で指定できる*/
+   border-bottom: thin solid Black;
+   /*
+   border-width: thin;
+   border-style: solid;
+   border-color: White;
+   */
+ }
+ th.grey{
+   background-color: #b4c1d1;
+ }
+ td.grey{
+   background-color: #b4c1d1;
+ }
+ a:hover {
+     color: red;
+ }
+
+ /*
+ ul{
+   color:White;
+ }
+ ul div li{
+  color: #ffffff;
+  font-size: 125%;
+  font-weight: bolder;
+  /*line-heightで行間を指定
+  line-height: 1.7;
+  /*list-styleプロパティは一括指定できる
+  list-style: square none;
+  /*
+  /*list-style-typeプロパティでリストマーカーを指定
+  list-style-type: square;
+  /*list-style-imageプロパティでリストマーカーの画像を指定
+  list-style-image: thin solid Blue;
+
+ }
+ li{
+   background-color: grey;
+   width: 19vw;
+   /*リストマーカーの表示位置を指定
+   list-style-position: outside;
+ }
+*/
